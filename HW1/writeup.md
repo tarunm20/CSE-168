@@ -6,11 +6,11 @@ In this homework we implemented 2 important features that improved the image qua
 
 We implemented an antialiasing technique where we generated n additional rays within each pixel. We calculated the color that each ray generates and find the average of all colors. Here are some examples of what our antialiasing algorithm generated.
 
-![antialiasExample1](antialiasdifferenceExample1.png)
+![antialiasExample1](antialiasdifferenceExample1.PNG)
 
 In the image above we have the original scene 6 and on the right we have scene 6 with antialiasing. We used 10 samples so we were able to get smoother edges.
 
-![antialiasExample2](antialiasdifferenceExample2.png)
+![antialiasExample2](antialiasdifferenceExample2.PNG)
 
 Here is another example. We rendered the original scene 5 on the left and scene 5 with antialiasing on the right. We can see here that the edges of the spheres are significantly smoother than the original.
 
