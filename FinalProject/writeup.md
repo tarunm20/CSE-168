@@ -28,6 +28,7 @@ Our next steps are to finish implementing photon transmission into our photon tr
 Our group followed the book 'Realistic Image Synthesis Using Photon Mapping' by Henrik Wann Jensen. The book details a two step process for rendering images with photon maps. The first step involves setting up the environment by casting photons from light sources. And the second step is collecting the radiance within a certain radius during rendering. We also used a stanford course and paper that was written by the author.
 
 [link](http://graphics.ucsd.edu/~henrik/papers/photon_map/global_illumination_using_photon_maps_egwr96.pdf)
+
 [link](https://graphics.stanford.edu/courses/cs348b-00/course8.pdf)
 
 ### Pre Processing Step
@@ -49,7 +50,7 @@ Based on the book, radiance estimation is relatively straightforward with these 
 
 ## Images
 
-1,000,000 Photons, 100 Photons for radiance estimation
+1,000,000 Photons, 100 Photons for radiance estimation, Modified-Phong
 
 ![image](refraction100000Shot100Collected.png)
 
@@ -58,7 +59,7 @@ Photon Map
 ![photonMap](refraction100000Shot100CollectedPhotonMap.png)
 
 
-5,000,000 Photons, 100 Photons for radiance estimation
+5,000,000 Photons, 100 Photons for radiance estimation, Modified-Phong
 
 ![image](refraction500000Shot100Collected.png)
 
@@ -67,15 +68,15 @@ Photon Map
 ![photonMap](refraction500000Shot100CollectedPhotonMap.png)
 
 
-5,000,000 Photons, 100 Photons for radiance estimation, 128 samples per pixel
+5,000,000 Photons, 100 Photons for radiance estimation, 128 samples per pixel, Modified-Phong
 
 ![image](dragon500000Shot100Collectedspp8.png)
 
-1,000,000 Photons, 100 Photons for radiance estimation
+1,000,000 Photons, 100 Photons for radiance estimation, Modified-Phong
 
 ![image](dragon100000Shot100Collected.png)
 
-5,000,000 Photons, 100 Photons for radiance estimation
+5,000,000 Photons, 100 Photons for radiance estimation, Modified-Phong
 
 ![image](cornellBRDF500000Shot100Collected.png)
 
@@ -84,4 +85,10 @@ Photon Map
 ![photonMap](cornellBRDF500000Shot100CollectedPhotonMap.png)
 
 
+1,000,000 Photons, 100 for radiance estimation, GGX
 
+![image](cornell-refraction2.png)
+
+1,000,000 Photons, 100 for radiance estimation, GGX
+
+![image](ggx%20copy.png)
