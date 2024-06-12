@@ -54,6 +54,7 @@ Based on the book, radiance estimation is relatively straightforward with these 
 ![image](refraction100000Shot100Collected.png)
 
 Photon Map 
+
 ![photonMap](refraction100000Shot100CollectedPhotonMap.png)
 
 
@@ -62,6 +63,7 @@ Photon Map
 ![image](refraction500000Shot100Collected.png)
 
 Photon Map 
+
 ![photonMap](refraction500000Shot100CollectedPhotonMap.png)
 
 
