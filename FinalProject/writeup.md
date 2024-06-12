@@ -51,21 +51,25 @@ Based on the book, radiance estimation is relatively straightforward with these 
 
 1,000,000 Photons, 100 Photons for radiance estimation
 ![image](refraction100000Shot100Collected.png)
+
 Photon Map ![photonMap](refraction100000Shot100CollectedPhotonMap.png)
 
 
 5,000,000 Photons, 100 Photons for radiance estimation
 ![image](refraction500000Shot100Collected.png)
+
 Photon Map ![photonMap](refraction500000Shot100CollectedPhotonMap.png)
 
 
 5,000,000 Photons, 100 Photons for radiance estimation, 128 samples per pixel
 ![image](dragon500000Shot100Collectedspp8.png)
+
 1,000,000 Photons, 100 Photons for radiance estimation
 ![image](dragon100000Shot100Collected.png)
 
 5,000,000 Photons, 100 Photons for radiance estimation
 ![image](cornellBRDF500000Shot100Collected.png)
+
 Photon Map ![photonMap](cornellBRDF500000Shot100CollectedPhotonMap.png)
 
 
