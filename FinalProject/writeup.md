@@ -27,13 +27,13 @@ Our next steps are to finish implementing photon transmission into our photon tr
 ## Implementation
 Our group followed the book 'Realistic Image Synthesis Using Photon Mapping' by Henrik Wann Jensen. The book details a two step process for rendering images with photon maps. The first step involves setting up the environment by casting photons from light sources. And the second step is collecting the radiance within a certain radius during rendering. We also used a stanford course and paper that was written by the author.
 
-[link](http://graphics.ucsd.edu/~henrik/papers/photon_map/global_illumination_using_photon_maps_egwr96.pdf)
+[Course](http://graphics.ucsd.edu/~henrik/papers/photon_map/global_illumination_using_photon_maps_egwr96.pdf)
 
-[link](https://graphics.stanford.edu/courses/cs348b-00/course8.pdf)
+[Paper](https://graphics.stanford.edu/courses/cs348b-00/course8.pdf)
 
 ### Pre Processing Step
 During the pre-processing step, we have to emit N number of photons from all light sources in the scene. After that, we trace each photon through the scene. If we hit a diffuse surface, we store the photon data and continue tracing, if we hit a specular surface we choose to reflect or refract, and if we absorb we store the photon data and terminate. After emitting and tracing N photons, we build a KD-Tree which is a spacial data structure. We used the KD-Tree for increased speed in search for photons within an area. We used an external library linked here:
-[link](https://github.com/cdalitz/kdtree-cpp)
+[Github to library](https://github.com/cdalitz/kdtree-cpp)
 
 The KD-Tree search time was O(log(n)) so we were able to significantly reduce render time. We constructed and stored the tree in the scene data.
 
